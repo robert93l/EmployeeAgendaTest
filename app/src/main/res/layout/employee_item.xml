@@ -37,7 +37,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
-                    android:text="News Headline"
+                    android:text=""
                     android:textStyle="italic"
                     android:textColor="#000000"
                     android:textSize="20sp" />
@@ -47,7 +47,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
-                    android:text="News Headline"
+                    android:text=""
                     android:textColor="#000000"
                     android:textSize="15sp" />
                 <TextView
@@ -55,7 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
-                    android:text="News Headline"
+                    android:text=""
                     android:textColor="#000000"
                     android:textSize="15sp" />
                 <TextView
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginBottom="10dp"
-                    android:text="News Headline"
+                    android:text=""
                     android:textColor="#000000"
                     android:textSize="15sp" />
                 <TextView
@@ -72,7 +72,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
-                    android:text="News Headline"
+                    android:text=""
                     android:textStyle="bold"
                     android:textColor="#000000"
                     android:textSize="15sp" />

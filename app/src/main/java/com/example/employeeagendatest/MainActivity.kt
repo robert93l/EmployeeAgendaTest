@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
-   lateinit var employeeInitViewModel: EmployeeViewModel
+   private lateinit var employeeInitViewModel: EmployeeViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         loadData()
     }
 
-    fun loadData(){
+    private fun loadData(){
         employeeInitViewModel = ViewModelProvider(this)[EmployeeViewModel::class.java]
         employeeInitViewModel.getApiEmployeeData()
         employeeInitViewModel.employeeDataList.observe(this, Observer {
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    fun initAdapter(data: List<Employee>){
+    private fun initAdapter(data: List<Employee>){
         binding.rvEmployees.layoutManager = LinearLayoutManager(this)
         // This will pass the ArrayList to our Adapter
         val adapter = EmployeeAdapter(data)
